@@ -1,0 +1,45 @@
+*{margin: 0;}
+body{
+
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.content-box{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.content-box h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: oswald;
+}
+.content-box p{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #6d6d6d;
+    font-family: helvetica;
+}
+.content-box div{
+        background: #efefef;
+        padding: 25px;
+        box-shadow: 5px 4px 10px #d6d6d6b8;
+}
+.gallery{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.gallery-section{
+    background: #efefef;
+    margin-top: 50px;
+    padding: 100px 0px;
+}
